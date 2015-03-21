@@ -72,6 +72,13 @@ public abstract class Formule {
 	// retourne l'évaluation de la formule
 	public abstract boolean valeur() throws VariableLibreException;
 
+	/**
+	 * @param valeur
+	 *            la valeur dont on veut la chaine binaire
+	 * @param longueur
+	 *            la taille nminimum de la chaine
+	 * @return la représentation binaire de valeur de taille minimum longueur
+	 */
 	public static String enBinaireDeTaille(int valeur, int longueur) {
 		String binaire = Integer.toBinaryString(valeur);
 		StringBuilder zeroDePoidsFort = new StringBuilder();

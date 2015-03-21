@@ -7,7 +7,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author nintunze
+ * @author Honoré Nintunze
  * 
  */
 public class Constante extends Formule {

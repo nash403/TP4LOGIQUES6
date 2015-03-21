@@ -6,7 +6,7 @@ package logicline.modeleSemantique;
 import java.util.Set;
 
 /**
- * @author nintunze
+ * @author Honoré Nintunze
  * 
  */
 public class Ou extends Formule {

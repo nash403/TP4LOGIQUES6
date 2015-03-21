@@ -6,7 +6,7 @@ package logicline.modeleSemantique;
 import java.util.Set;
 
 /**
- * @author nintunze
+ * @author Honoré Nintunze
  * 
  */
 public class Implique extends Formule {
@@ -60,8 +60,7 @@ public class Implique extends Formule {
 	 */
 	@Override
 	public boolean valeur() throws VariableLibreException {
-		// TODO Auto-generated method stub
-		return false;
+		return fnc().valeur();
 	}
 
 	@Override
