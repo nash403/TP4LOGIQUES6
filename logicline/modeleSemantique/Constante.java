@@ -63,10 +63,7 @@ public class Constante extends Formule {
 	@Override
 	public ListeClauses clauses() throws NotFNCException, TrueClauseException,
 			FalseClauseException, VariableClauseException {
-		/*
-		 * ListeClauses lc = new ListeClauses(); Clause c = new
-		 * Clause(toString(), value); lc.add(c); return lc;
-		 */
+		
 		if (value)
 			throw new TrueClauseException();
 		else
